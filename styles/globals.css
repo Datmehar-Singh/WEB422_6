@@ -1,0 +1,44 @@
+.navbar-brand {
+  padding-left: 2rem;
+}
+.navbar-nav {
+  width: 100%;
+  gap: 1.5rem;
+}
+
+#basic-nav-dropdown {
+  margin-right: 5rem;
+  color: rgb(225, 215, 215);
+}
+
+.navbar-nav > .nav-link {
+  color: rgb(171, 156, 156);
+}
+
+.nav-form {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.nav-form > button {
+  color: white;
+}
+
+.is-invalid {
+  color: red;
+}
+
+.museum-intro {
+  column-count: 2;
+  padding: 10px 30px;
+}
+@media screen and (max-width: 992px) {
+  .nav-form {
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: row;
+  }
+  .museum-intro {
+    column-count: 1;
+  }
+}
