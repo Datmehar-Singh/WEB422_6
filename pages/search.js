@@ -5,9 +5,9 @@ import { useAtom } from "jotai";
 import { searchHistoryAtom } from "../store.js";
 import { addToHistory } from "../lib/userData.js";
 import { Form } from "react-bootstrap";
-import Row from "react-bootstrap";
-import Col from "react-bootstrap";
-import Button from "react-bootstrap";
+import {Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
+import {Button} from "react-bootstrap";
 export default function AdvancedSearch() {
   const router = useRouter();
   const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
